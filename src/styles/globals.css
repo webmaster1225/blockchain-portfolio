@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* @source: https://css-tricks.com/snippets/css/typewriter-effect/ */
+  .typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: typing 2.5s steps(80, end) forwards;
+  }
+
+  /* @source: https://css-tricks.com/snippets/css/typewriter-effect/ */
+  /* The typing effect */
+  @keyframes typing {
+    0% {
+      width: 0;
+      border-right-width: 2px;
+      border-color: white;
+    }
+    40% {
+      border-right-width: 2px;
+      border-color: white;
+    }
+    60% {
+      border-right-width: 2px;
+      border-color: white;
+    }
+    80% {
+      border-right-width: 2px;
+      border-color: white;
+    }
+    90% {
+      border-right-width: 2px;
+      border-color: white;
+    }
+    95% {
+      border-right-width: 2px;
+      border-color: white;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  .proficient-bar-animation {
+    animation: proficient-bar 4s linear infinite;
+    background-size: 600% 100%;
+    background-image: linear-gradient(
+      90deg,
+      #5ad0ff,
+      #95cbef,
+      #85d28d,
+      #ffe95a,
+      #a8ef95,
+      #5ad0ff,
+      #95cbef
+    );
+  }
+
+  @keyframes proficient-bar {
+    0% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+
+  /* source: https://codepen.io/alvarotrigo/pen/JjNwzoE */
+  .showmore-btn {
+    background-size: 300% 100%;
+  }
+  .showmore-btn:hover {
+    background-position: 100% 0;
+  }
+  .showmore-bg-1 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #40e495,
+      #30dd8a,
+      #2bb673
+    );
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  }
+  .showmore-bg-2 {
+    background-image: linear-gradient(
+      to right,
+      #6253e1,
+      #852d91,
+      #a3a1ff,
+      #f24645
+    );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
+
+  .syns-platform {
+    background-image: linear-gradient(to left, #efd8c9, #f8ad7b);
+    color: #553932;
+  }
+  .syns-platform-sm {
+    background-image: linear-gradient(to top, #efd8c9, #f8ad7b);
+    color: #553932;
+  }
+
+  .syns-platform-desc {
+    color: #7b5649;
+  }
+  .syns-platform-btn {
+    color: #942d3e;
+  }
+  .syns-platform-underline {
+    background-color: #942d3e;
+    border: none;
+  }
+
+  .hedro-ai {
+    background-image: linear-gradient(to left, #e0dcc8, #f2f1ea);
+    color: #27d0ba;
+  }
+  .hedro-ai-sm {
+    background-image: linear-gradient(to top, #d1cdb3, #f2f1ea);
+    color: #03172f;
+  }
+  .hedro-ai-desc {
+    color: #1bac99;
+  }
+  .hedro-ai-btn {
+    color: #13b29d;
+  }
+  .hedro-ai-underline {
+    background-color: #1c9484;
+    border: none;
+  }
+
+  .hedera-dapp-playground {
+    background-image: linear-gradient(to left, #5b82b1, #213751);
+    color: #a5c6ef;
+  }
+  .hedera-dapp-playground-sm {
+    background-image: linear-gradient(to top, #5b82b1, #1a232e);
+    color: #03172f;
+  }
+  .hedera-dapp-playground-desc {
+    color: #b8d8ff;
+  }
+  .hedera-dapp-playground-btn {
+    color: #b8d8ff;
+  }
+  .hedera-dapp-playground-underline {
+    background-color: #b8d8ff;
+    border: none;
+  }
+
+  .hashtology {
+    background-image: linear-gradient(to right, #cb1edc, #5d088f);
+    color: #fff;
+  }
+  .hashtology-sm {
+    background-image: linear-gradient(to top, #cb1edc, #5d088f);
+    color: #fff;
+  }
+  .hashtology-desc {
+    color: #cdcdcd;
+  }
+  .hashtology-btn {
+    color: #fff;
+  }
+  .hashtology-underline {
+    background-color: #fff;
+  }
+
+  .nftir {
+    background-image: linear-gradient(to left, #f5be80, #fd8700);
+    color: #4a3313;
+  }
+  .nftir-sm {
+    background-image: linear-gradient(to top, #f5be80, #fd8700);
+    color: #4a3313;
+  }
+  .nftir-desc {
+    color: #4a3313;
+  }
+  .nftir-btn {
+    color: #000;
+  }
+  .nftir-underline {
+    background-color: #000;
+  }
+
+  .cpr {
+    background-image: linear-gradient(to right, #7ecec2, #5780e7);
+    color: #142562;
+  }
+  .cpr-sm {
+    background-image: linear-gradient(to top, #7ecec2, #5780e7);
+    color: #142562;
+  }
+  .cpr-desc {
+    color: #203275;
+  }
+  .cpr-btn {
+    color: #030713;
+  }
+  .cpr-underline {
+    background-color: #030713;
+  }
+
+  .meetup {
+    background-image: linear-gradient(to left, #e7ff49, #b3ca1d);
+    color: #195148;
+  }
+  .meetup-sm {
+    background-image: linear-gradient(to top, #e7ff49, #b3ca1d);
+    color: #195148;
+  }
+  .meetup-desc {
+    color: #2a5e55;
+  }
+  .meetup-btn {
+    color: #1b4b43;
+  }
+  .meetup-underline {
+    background-color: #1b4b43;
+  }
+
+  .crew-talk {
+    background-image: linear-gradient(to right, #d5a5f9, #69b3d3);
+    color: #135296;
+  }
+  .crew-talk-sm {
+    background-image: linear-gradient(to top, #d5a5f9, #69b3d3);
+    color: #135296;
+  }
+  .crew-talk-desc {
+    color: #2a6cb2;
+  }
+  .crew-talk-btn {
+    color: #113f70;
+  }
+  .crew-talk-underline {
+    background-color: #113f70;
+  }
+
+  .omega {
+    background-image: linear-gradient(to left, #be7bf1, #5a56e9);
+    color: #fff;
+  }
+  .omega-sm {
+    background-image: linear-gradient(to top, #be7bf1, #5a56e9);
+    color: #fff;
+  }
+  .omega-desc {
+    color: #cdcdcd;
+  }
+  .omega-btn {
+    color: #fff;
+  }
+  .omega-underline {
+    background-color: #fff;
+  }
+
+  .bg-github:hover {
+    background-color: #d2d2d244;
+  }
+  .bg-reddit:hover {
+    background-color: #ff871717;
+  }
+  .bg-linkedin:hover {
+    background-color: #e1f0f75b;
+  }
+  .bg-twitter:hover {
+    background-color: #a2d9f727;
+  }
+  .bg-gmail:hover {
+    background-color: #ffc4b22c;
+  }
+  .bg-discord:hover {
+    background-color: #8ea1e12a;
+  }
+  .bg-tiktok:hover {
+    background-color: #bfecec4f;
+  }
+}
