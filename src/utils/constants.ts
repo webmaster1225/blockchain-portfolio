@@ -14,8 +14,8 @@ export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
   'https://github.com/webmaster1225/portfolio-v2';
 
 export const QUIET_NODE_GITHUB_LINK = 'https://github.com/webmaster1225';
-export const QUIET_NODE_REDDIT_LINK =
-  'https://www.reddit.com/user/Quiet-Computer-3495';
+export const QUIET_NODE_Telegram_LINK =
+  'https://t.me/amir21225/';
 export const QUIET_NODE_EMAIL_LINK = 'mailto:hardysmith940110';
 // export const QUIET_NODE_LINKEDIN_LINK = 'https://linkedin.com/in/logann131';
 // export const QUIET_NODE_TWITTER_LINK = 'https://twitter.com/quiet_node';
@@ -700,7 +700,7 @@ export const SOCIAL_FOOTER = [
     id: 1,
     title: 'Telegram',
     desc: "Second favorite place. Just became a telegram for a year now but can't stop reading random posts.",
-    link: QUIET_NODE_REDDIT_LINK,
+    link: QUIET_NODE_Telegram_LINK,
     bgClass: 'bg-reddit',
   },
   {
