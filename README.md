@@ -25,7 +25,3 @@ I'm a full-stack web 3.0 software developer and a blockchain & smart contract en
 In this repository, you'll find some of my latest projects and contributions to the open-source community. From web applications to blockchain-based solutions, I'm always excited to explore new technologies and push the limits of what's possible. So feel free to have a look around, check out my code, and let me know if you have any questions or suggestions. Give it a star ⭐️, too!
 
 Cheers!
-
-## Here is a quick demo:
-
-https://user-images.githubusercontent.com/66233296/226212618-bb2b6f8c-ace6-4649-957d-df7f66e1907f.mp4
