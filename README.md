@@ -1,10 +1,10 @@
 <p align="center">
 <br />
 <a href="https://next-ts-port-folio.vercel.app/"><img src="https://github.com/webmaster1225/portfolio-v2/blob/main/public/quiet-node.ico?raw=true" width="150" alt=""/></a>
-<h1 align="center">Quiet Node | Portfolio </h1>
+<h1 align="center"> My Portfolio </h1>
 </p>
 
-<h3 align="center"> 🏵️ Live at: https://next-ts-port-folio.vercel.app/ </h3>
+<h3 align="center"> 🏵️ Live at: https://blockchain-portfolio-nu.vercel.app/</h3>
 
 <div align="center">
 
