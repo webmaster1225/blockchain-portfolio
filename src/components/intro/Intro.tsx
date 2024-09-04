@@ -163,10 +163,10 @@ const Intro = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.2, delay: 1.4 }}
               className={`rounded-full relative
-                        w-64 h-64
+                        w-58 h-58
                         sm:w-[19rem] sm:h-[19rem]
-                        lg:w-80 lg:h-80
-                        2xl:w-[21rem] 2xl:h-[21rem]`}
+                        lg:w-64 lg:h-64
+                        2xl:w-[17rem] 2xl:h-[17rem]`}
             >
               <Image
                 className="absolute inset-0 w-full h-full object-center object-cover rounded-full select-none"
