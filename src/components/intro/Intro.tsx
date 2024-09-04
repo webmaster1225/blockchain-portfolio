@@ -164,9 +164,9 @@ const Intro = () => {
               transition={{ duration: 0.2, delay: 1.4 }}
               className={`rounded-full relative
                         w-58 h-58
-                        sm:w-[19rem] sm:h-[19rem]
-                        lg:w-64 lg:h-64
-                        2xl:w-[17rem] 2xl:h-[17rem]`}
+                        sm:w-[14rem] sm:h-[14rem]
+                        lg:w-58 lg:h-58
+                        2xl:w-[16rem] 2xl:h-[16rem]`}
             >
               <Image
                 className="absolute inset-0 w-full h-full object-center object-cover rounded-full select-none"
