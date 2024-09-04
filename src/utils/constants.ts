@@ -16,7 +16,7 @@ export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
 export const QUIET_NODE_GITHUB_LINK = 'https://github.com/webmaster1225';
 export const QUIET_NODE_Telegram_LINK =
   'https://t.me/amir21225/';
-export const QUIET_NODE_EMAIL_LINK = 'mailto:hardysmith940110';
+export const QUIET_NODE_EMAIL_LINK = 'mailto:takao890101@gmail.com';
 // export const QUIET_NODE_LINKEDIN_LINK = 'https://linkedin.com/in/logann131';
 // export const QUIET_NODE_TWITTER_LINK = 'https://twitter.com/quiet_node';
 export const QUIET_NODE_DISCORD_LINK =
@@ -272,7 +272,7 @@ export const PROJECTS_LISTS: Project[] = [
     },
     description:
       'A revolutionary web 3.0 music platform that combines NFTs, music-donation system, NFT marketplace, club membership, and social media features, empowering musicians and fans to connect, showcase, and promote their music, revolutionizing the music industry.',
-    repoLink: 'https://github.com/syns-platform',
+    repoLink: 'https://github.com/Chain-platform',
     liveLink: 'https://syns.vercel.app',
     demoLink: '',
     thumbnail: 'syns-platform/syns-platform-devices.svg',

@@ -163,7 +163,7 @@ const Intro = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.2, delay: 1.4 }}
               className={`rounded-full relative
-                        w-72 h-72
+                        w-64 h-64
                         sm:w-[19rem] sm:h-[19rem]
                         lg:w-80 lg:h-80
                         2xl:w-[21rem] 2xl:h-[21rem]`}
@@ -172,8 +172,8 @@ const Intro = () => {
                 className="absolute inset-0 w-full h-full object-center object-cover rounded-full select-none"
                 src={"/assets/avatars/webmaster.png"}
                 alt="webmaster"
-                width={300}
-                height={300}
+                width={256}
+                height={256}
               />
             </SmotionDiv>
           </div>

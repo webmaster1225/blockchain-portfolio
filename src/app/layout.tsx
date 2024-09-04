@@ -31,11 +31,11 @@ export const metadata: Metadata = {
   description:
     "Full-stack Web 3.0 Software Developer | DLT Enthusiast | Junior Smart Contract Developer",
   authors: {
-    name: "Hardy (a.k.a. Quiet Node)",
+    name: "Takao (a.k.a. Quiet Node)",
     url: "http://t.me/amir21225",
   },
   keywords: [
-    "Hardy",
+    "Takao",
     "Quiet Node",
     "Quiet0Node",
     "Portfolio",
