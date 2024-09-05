@@ -58,6 +58,7 @@ const Intro = () => {
               >
                 👋
               </SmotionSpan>{" "}
+              It&apos;s Logan <span className="hidden xxsm:inline">;)</span>
             </SmotionHeader>
             <SmotionHeader
               elementType="h2"
@@ -68,7 +69,7 @@ const Intro = () => {
               className="text-primary font-medium
                     text-lg sm:text-xl"
             >
-              (a.k.a. webmaster)
+              (a.k.a. quiet-node)
             </SmotionHeader>
           </div>
 
@@ -103,9 +104,9 @@ const Intro = () => {
               whileHover={{ y: -0.5 }}
               transition={{ duration: 0.6, delay: 1.2 }}
               href={QUIET_NODE_LINKEDIN_LINK as string}
-              target='_blank'
-              className='cursor-pointer hover:text-[#0A66C2]'
-              title='LinkedIn'
+              target="_blank"
+              className="cursor-pointer hover:text-[#0A66C2]"
+              title="LinkedIn"
             >
               <AiFillLinkedin />
             </SmotionLink> */}
@@ -130,9 +131,9 @@ const Intro = () => {
               whileHover={{ y: -0.5 }}
               transition={{ duration: 0.6, delay: 1.1 }}
               href={QUIET_NODE_TWITTER_LINK}
-              target='_blank'
-              className='cursor-pointer hover:text-[#1DA1F2]'
-              title='Twitter'
+              target="_blank"
+              className="cursor-pointer hover:text-[#1DA1F2]"
+              title="Twitter"
             >
               <AiFillTwitterCircle />
             </SmotionLink> */}
@@ -163,17 +164,17 @@ const Intro = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.2, delay: 1.4 }}
               className={`rounded-full relative
-                        w-40 h-40
-                        sm:w-[11rem] sm:h-[11rem]
-                        lg:w-60 lg:h-60
-                        2xl:w-[16rem] 2xl:h-[16rem]`}
+                        w-44 h-44
+                        sm:w-[13rem] sm:h-[13rem]
+                        xlg:w-72 xlg:h-72
+                        2xl:w-[21rem] 2xl:h-[21rem]`}
             >
               <Image
                 className="absolute inset-0 w-full h-full object-center object-cover rounded-full select-none"
                 src={"/assets/avatars/webmaster.png"}
                 alt="webmaster"
-                width={256}
-                height={256}
+                width={300}
+                height={300}
               />
             </SmotionDiv>
           </div>
