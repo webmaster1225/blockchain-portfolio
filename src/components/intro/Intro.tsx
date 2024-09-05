@@ -164,7 +164,7 @@ const Intro = () => {
               transition={{ duration: 0.2, delay: 1.4 }}
               className={`rounded-full relative
                         w-40 h-40
-                        sm:w-[14rem] sm:h-[14rem]
+                        sm:w-[11rem] sm:h-[11rem]
                         lg:w-60 lg:h-60
                         2xl:w-[16rem] 2xl:h-[16rem]`}
             >
