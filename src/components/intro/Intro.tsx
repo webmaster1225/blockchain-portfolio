@@ -58,7 +58,7 @@ const Intro = () => {
               >
                 👋
               </SmotionSpan>{" "}
-              It&apos;s Logan <span className="hidden xxsm:inline">;)</span>
+              {/* It&apos;s Blockchain D <span className="hidden xxsm:inline">;)</span> */}
             </SmotionHeader>
             <SmotionHeader
               elementType="h2"
