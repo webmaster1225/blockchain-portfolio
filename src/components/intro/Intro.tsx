@@ -153,7 +153,7 @@ const Intro = () => {
           </div>
 
           {/* Avatar */}
-          <div className="flex justify-center">
+{/*           <div className="flex justify-center">
             <SmotionDiv
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -177,7 +177,7 @@ const Intro = () => {
                 height={300}
               />
             </SmotionDiv>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
