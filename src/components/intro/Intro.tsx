@@ -171,7 +171,7 @@ const Intro = () => {
             >
               <Image
                 className="absolute inset-0 w-full h-full object-center object-cover rounded-full select-none"
-                src={"/assets/avatars/webmaster.png"}
+                src={"/assets/avatars/profile_pic.png"}
                 alt="webmaster"
                 width={300}
                 height={300}
