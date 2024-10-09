@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "Full-stack Web 3.0 Software Developer | DLT Enthusiast | Junior Smart Contract Developer",
   authors: {
     name: "Takao (a.k.a. Quiet Node)",
-    url: "http://t.me/amir21225",
+    url: "http://t.me/crypto21225",
   },
   keywords: [
     "Takao",
