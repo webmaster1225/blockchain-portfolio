@@ -15,7 +15,7 @@ export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
 
 export const QUIET_NODE_GITHUB_LINK = 'https://github.com/webmaster1225';
 export const QUIET_NODE_Telegram_LINK =
-  'https://t.me/crypto21225/';
+  'https://t.me/crypto_1225/';
 export const QUIET_NODE_EMAIL_LINK = 'mailto:takao890101@gmail.com';
 // export const QUIET_NODE_LINKEDIN_LINK = 'https://linkedin.com/in/logann131';
 // export const QUIET_NODE_TWITTER_LINK = 'https://twitter.com/quiet_node';
