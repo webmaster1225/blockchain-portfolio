@@ -1,5 +1,5 @@
 /** @notice Author's url */
-export const OFFICIAL_AUTHOR_URL = 'https://https://next-ts-port-folio.vercel.app/';
+export const OFFICIAL_AUTHOR_URL = 'https://hunterdev.vercel.app/';
 
 /** @notice Official Author Twitter */
 // export const OFFICIAL_PLATOFORM_TWITTER_URL = 'https://twitter.com/quiet_node';
@@ -15,10 +15,7 @@ export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
 
 export const QUIET_NODE_GITHUB_LINK = 'https://github.com/webmaster1225';
 export const QUIET_NODE_Telegram_LINK =
-  'https://t.me/crypto_1225/';
-export const QUIET_NODE_EMAIL_LINK = 'mailto:takao890101@gmail.com';
-// export const QUIET_NODE_LINKEDIN_LINK = 'https://linkedin.com/in/logann131';
-// export const QUIET_NODE_TWITTER_LINK = 'https://twitter.com/quiet_node';
+  'https://t.me/hunt1225/';
 export const QUIET_NODE_DISCORD_LINK =
   'http://discord.com/users/1266447909398773882/';
 
@@ -702,13 +699,6 @@ export const SOCIAL_FOOTER = [
     desc: "Second favorite place. Just became a telegram for a year now but can't stop reading random posts.",
     link: QUIET_NODE_Telegram_LINK,
     bgClass: 'bg-reddit',
-  },
-  {
-    id: 2,
-    title: 'Gmail',
-    desc: 'Main communicating media. Shoot me an email!',
-    link: QUIET_NODE_EMAIL_LINK,
-    bgClass: 'bg-gmail',
   },
   {
     id: 3,
