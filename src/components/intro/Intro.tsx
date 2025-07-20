@@ -11,7 +11,6 @@ import {
   // QUIET_NODE_LINKEDIN_LINK,
   QUIET_NODE_GITHUB_LINK,
   // QUIET_NODE_TWITTER_LINK,
-  QUIET_NODE_EMAIL_LINK,
 } from "@/utils/constants";
 import {
   AiFillGithub,
@@ -137,19 +136,6 @@ const Intro = () => {
             >
               <AiFillTwitterCircle />
             </SmotionLink> */}
-            <SmotionLink
-              initial={{ opacity: 0, x: 21 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              whileHover={{ y: -0.5 }}
-              transition={{ duration: 0.6, delay: 1.2 }}
-              href={QUIET_NODE_EMAIL_LINK}
-              target="_blank"
-              className="cursor-pointer hover:text-red-600 flex items-center"
-              title="Gmail"
-            >
-              <ImMail size={40} />
-            </SmotionLink>
           </div>
 
           {/* Avatar */}
