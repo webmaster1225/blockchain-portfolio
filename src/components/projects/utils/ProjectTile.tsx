@@ -357,7 +357,7 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
               )}
 
               {/* github */}
-              <motion.a
+{/*               <motion.a
                 variants={verticalMoreSkills}
                 href={repoLink}
                 target='_blank'
@@ -408,7 +408,7 @@ const ProjectTile = ({ project, flipped }: PapgeProps) => {
                     <MdKeyboardArrowRight size={24} />
                   )}
                 </motion.span>
-              </motion.a>
+              </motion.a> */}
             </motion.div>
           </div>
         </motion.div>
